@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-polars-prevision"
+version = "0.1.0"
+description = ""
+authors = ["Airton Lira <airton.lira@dock.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^1.14.0"
+scikit-learn = "^1.5.2"
+jupyter = "^1.1.1"
+kaggle = "^1.6.17"
+pandas = "^2.2.3"
+pyarrow = "^18.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
